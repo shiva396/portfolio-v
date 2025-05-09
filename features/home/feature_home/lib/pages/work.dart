@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class workPage extends StatefulWidget {
-  const workPage({super.key});
+class WorkPage extends StatefulWidget {
+  const WorkPage({super.key});
 
   @override
-  State<workPage> createState() => _workPageState();
+  State<WorkPage> createState() => _WorkPageState();
 }
 
-class _workPageState extends State<workPage> {
+class _WorkPageState extends State<WorkPage> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();

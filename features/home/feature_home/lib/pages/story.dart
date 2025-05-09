@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
-class storyPage extends StatefulWidget {
-  const storyPage({super.key});
+class StoryPage extends StatefulWidget {
+  const StoryPage({super.key});
+
+ 
 
   @override
-  State<storyPage> createState() => _storyPageState();
+  State<StoryPage> createState() => _StoryPageState();
 }
 
-class _storyPageState extends State<storyPage> {
+class _StoryPageState extends State<StoryPage> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
